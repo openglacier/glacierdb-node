@@ -2,11 +2,10 @@
   "name": "glacierdb",
   "version": "0.1.0",
   "description": "Zero-dependency Node.js driver for glacierdb (ogd)",
-  "homepage": "https://forge.openglacier.org/openglacier/platform/src/branch/main/og-drivers/nodejs",
+  "homepage": "https://github.com/openglacier/glacierdb-node",
   "repository": {
     "type": "git",
-    "url": "git+https://forge.openglacier.org/openglacier/platform.git",
-    "directory": "og-drivers/nodejs"
+    "url": "git+https://github.com/openglacier/glacierdb-node.git"
   },
   "type": "module",
   "main": "./src/index.js",
