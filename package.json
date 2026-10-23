@@ -1,0 +1,39 @@
+{
+  "name": "glacierdb",
+  "version": "0.1.0",
+  "description": "Zero-dependency Node.js driver for glacierdb (ogd)",
+  "homepage": "https://forge.openglacier.org/openglacier/platform/src/branch/main/og-drivers/nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://forge.openglacier.org/openglacier/platform.git",
+    "directory": "og-drivers/nodejs"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check src/msgpack.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "glacierdb",
+    "ogd",
+    "database",
+    "msgpack"
+  ],
+  "license": "MIT"
+}
